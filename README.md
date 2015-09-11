@@ -11,16 +11,22 @@ npm install --save validate-node-version
 ### Usage:
 
 ```js
-var validatenv = require('validate-node-version');
+var validatenv = require('validate-node-version')();
 
-validatenv().then(function (data) {
-  // handle good node version
-}).catch(function (err) {
+if (validatenv.error) {
   // handle bad node version
-});
+} else {
+  // handle good node version
+}
 ```
 
-This module returns a promise with data with the structure below:
+You can pass a version to the module that overrides the version in the projects `package.json`:
+
+```js
+require('validate-node-version')('4.0.x');
+```
+
+This module returns a an object with the structure below:
 
 ```js
 {
@@ -35,12 +41,12 @@ This module returns a promise with data with the structure below:
 
 ```js
 var gulp = require('gulp'),
-    validatenv = require('validate-node-version');
+    validatenv = require('validate-node-version')();
 
 gulp.task('validatenv', function () {
-  validatenv().catch(function (err) {
-    console.error(err.message);
+  if (validatenv.error) {
+    console.error(validatenv.error);
     process.exit(1);
-  });
+  }
 });
 ```

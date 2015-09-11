@@ -1,6 +1,6 @@
 {
   "name": "validate-node-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compare current node version to node version required in package.json",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/jking90/check-node-version",
   "dependencies": {
-    "bluebird": "^2.10.0",
     "semver": "^5.0.1"
   }
 }
