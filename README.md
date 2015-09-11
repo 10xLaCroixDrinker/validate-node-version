@@ -5,7 +5,7 @@ A module that checks your current node version against a projects package.json
 ### Installation:
 
 ```
-npm install --savevalidate-node-version
+npm install --save validate-node-version
 ```
 
 ### Usage:
