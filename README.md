@@ -30,3 +30,17 @@ This module returns a promise with data with the structure below:
   satisfies: Boolean, // does the actual version satisfy the expected version
 }
 ```
+
+#### Example Gulp integration
+
+```js
+var gulp = require('gulp'),
+    validatenv = require('validate-node-version');
+
+gulp.task('validatenv', function () {
+  validatenv().catch(function (err) {
+    console.error(err.message);
+    process.exit(1);
+  });
+});
+```
