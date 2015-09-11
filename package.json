@@ -1,0 +1,31 @@
+{
+  "name": "validate-node-version",
+  "version": "1.0.0",
+  "description": "Compare current node version to node version required in package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jking90/check-node-version.git"
+  },
+  "keywords": [
+    "node",
+    "version",
+    "manager",
+    "validate",
+    "check",
+    "nvm"
+  ],
+  "author": "Jimmy King <hello@jimmyking.me> (http://jimmyking.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jking90/check-node-version/issues"
+  },
+  "homepage": "https://github.com/jking90/check-node-version",
+  "dependencies": {
+    "bluebird": "^2.10.0",
+    "semver": "^5.0.1"
+  }
+}
