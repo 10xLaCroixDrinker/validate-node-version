@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jking90/check-node-version.git"
+    "url": "https://github.com/jking90/validate-node-version.git"
   },
   "keywords": [
     "node",
@@ -21,9 +21,9 @@
   "author": "Jimmy King <hello@jimmyking.me> (http://jimmyking.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jking90/check-node-version/issues"
+    "url": "https://github.com/jking90/validate-node-version/issues"
   },
-  "homepage": "https://github.com/jking90/check-node-version",
+  "homepage": "https://github.com/jking90/validate-node-version",
   "dependencies": {
     "semver": "^5.0.1"
   }
