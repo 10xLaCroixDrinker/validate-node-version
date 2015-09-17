@@ -1,11 +1,8 @@
 {
   "name": "validate-node-version",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Compare current node version to node version required in package.json",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jking90/validate-node-version.git"

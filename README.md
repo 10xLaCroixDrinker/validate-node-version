@@ -44,8 +44,8 @@ var gulp = require('gulp'),
     validatenv = require('validate-node-version')();
 
 gulp.task('validatenv', function () {
-  if (validatenv.error) {
-    console.error(validatenv.error);
+  if (!validatenv.satisfies) {
+    console.error(validatenv.message);
     process.exit(1);
   }
 });
