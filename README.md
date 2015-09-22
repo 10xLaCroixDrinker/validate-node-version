@@ -13,7 +13,7 @@ npm install --save validate-node-version
 ```js
 var validatenv = require('validate-node-version')();
 
-if (validatenv.error) {
+if (!validatenv.satisfies) {
   // handle bad node version
 } else {
   // handle good node version
