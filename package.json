@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/jking90/validate-node-version",
   "dependencies": {
-    "semver": "^5.1.0"
+    "semver": "^5.2.0"
   }
 }
