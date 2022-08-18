@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jking90/validate-node-version.git"
+    "url": "https://github.com/10xLaCroixDrinker/validate-node-version.git"
   },
   "keywords": [
     "node",
@@ -15,12 +15,12 @@
     "check",
     "nvm"
   ],
-  "author": "Jimmy King <hello@jimmyking.me> (http://jimmyking.me)",
+  "author": "Jamie King <hello@jamieking.me> (http://jamieking.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jking90/validate-node-version/issues"
+    "url": "https://github.com/10xLaCroixDrinker/validate-node-version/issues"
   },
-  "homepage": "https://github.com/jking90/validate-node-version",
+  "homepage": "https://github.com/10xLaCroixDrinker/validate-node-version",
   "dependencies": {
     "semver": "^5.0.1"
   }
